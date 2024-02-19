@@ -81,5 +81,10 @@ header{
             width: 500px;
         }
 
+.intro { 
+                min-width: 470px;
+                width: 100%;
+ }
+
 
 
