@@ -5,23 +5,35 @@ html {
 /*normalize*/
 
 body {
-    background-color: #7e446c;
-    font: verdana, sans-serif;
-}
+        background-color: #da79bb;
+        font: verdana, sans-serif;
+        line-height: 1.88889;
+        margin: 0; 
+        padding: 0;
+	
+        }       
 
 h1 {
-    text-align: center;
+        text-align: center;
+        
     
 
 }
-h2{
-    text-align: center;
-}
+
+h2 {
+        text-align: center;
+        }
+
+h3 {
+        letter-spacing: 1px; 
+	margin-bottom: 0;
+        }
 
 p { 
 	margin-top: 0; 
 	text-align: justify;
 	}
+
 
 a:link { 
         font-weight: bold; 
@@ -63,10 +75,11 @@ abbr {
         }
 
 header{
-    background: url(cssimg.jpg) no-repeat top left;
-    padding: 120px;
-    height: 90px;
-}
+            background: url(cssimg.jpg) no-repeat right top;
+            padding: 120px;
+            height: 100px;
+            width: 500px;
+        }
 
 
 
