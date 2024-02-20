@@ -16,12 +16,14 @@ body {
 h1 {
         text-align: center;
         
+        
     
 
 }
 
 h2 {
         text-align: center;
+        
         }
 
 h3 {
@@ -32,13 +34,14 @@ h3 {
 p { 
 	margin-top: 0; 
 	text-align: justify;
+        
 	}
 
 
 a:link { 
         font-weight: bold; 
         text-decoration: none; 
-        color: #B7A5DF;
+        color: #cab6f7;
         }
 
 a:visited { 
@@ -49,7 +52,7 @@ a:visited {
 
 a:hover, a:focus, a:active { 
         text-decoration: underline; 
-        color: #9d90b8;
+        color: #b5a6d3;
         }
 
 abbr {
@@ -63,6 +66,7 @@ abbr {
         padding: 0 175px 0 110px;
         margin: 0;
         
+        
         }
 
 
@@ -70,12 +74,15 @@ abbr {
 .summary {
             clear: both; 
             margin: 20px 20px 20px 10px; 
-            width: 200px; 
+            width: 210px; 
             float: left;
+            background-color: #fcf8d2;
         }
 
+        
 header{
             background: url(cssimg.jpg) no-repeat right top;
+            opacity: 0.7;
             padding: 120px;
             height: 100px;
             width: 500px;
@@ -86,5 +93,25 @@ header{
                 width: 100%;
  }
 
+ .sidebar {
+        margin-top: 55em;
+        padding-top: 20em;
+        background: #fa7000da;
+        overflow: hidden;
+      }
 
+      .intro .preamble p:last-child {
+        position: absolute;
+        z-index: 2;
+        color: #ffffff;
+        background: rgba(38, 191, 246, 0.8);
+        width: 19%;
+        top: -9em;
+        right: 0;
+        margin-right: 0;
+        padding: 10em 1em 20em 1em;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
 
