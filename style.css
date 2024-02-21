@@ -1,16 +1,13 @@
-html {
+html, body {
 	margin: 0;
 	padding: 0;
 	}
-/*normalize*/
+  /*normalize*/
 
 body {
         background-color: #da79bb;
         font: verdana, sans-serif;
         line-height: 1.88889;
-        margin: 0; 
-        padding: 0;
-	
         }       
 
 h1 {
@@ -19,7 +16,7 @@ h1 {
         
     
 
-}
+        }
 
 h2 {
         text-align: center;
@@ -61,41 +58,38 @@ abbr {
 
 
 .page-wrapper {
-   
         position: relative;
         padding: 0 175px 0 110px;
-        margin: 0;
-        
-        
+        margin: 0;   
         }
 
 
 
 .summary {
-            clear: both; 
-            border-radius: 10px;
-            margin: 20px 20px 20px 10px; 
-            width: 210px; 
-            padding: 20px;
-            float: left;
-            background-color: #fcf8d2;
+        clear: both; 
+        border-radius: 10px;
+        margin: 20px 20px 20px 10px; 
+        width: 210px; 
+        padding: 20px;
+        float: left;
+        background-color: #fcf8d2;
         }
 
         
-header{
-            display: block;
-            background: url(cssimg.jpg) no-repeat right top;
-            border-radius: 10px;
-            opacity: 0.7;
-            padding: 120px;
-            height: 100px;
-            width: 500px;
+header {
+        display: block;
+        background: url(cssimg.jpg) no-repeat right top;
+        border-radius: 10px;
+        opacity: 0.7;
+        padding: 120px;
+        height: 100px;
+        width: 500px;
         }
 
 .intro { 
-                min-width: 470px;
-                width: 100%;
- }
+        min-width: 470px;
+        width: 100%;
+        }
 
  .sidebar {
         
@@ -105,7 +99,7 @@ header{
         background: #0558a5da;
         border-radius: 10px;
         overflow: hidden;
-      }
+        }
 
       .intro .preamble p:last-child {
         position: absolute;
@@ -126,15 +120,19 @@ header{
         background-size: 450px; 
         background-position: bottom; 
         background-repeat: no-repeat; 
-      }
+        }
 
+.preamble {
+        padding-top: 85px;
+        }
+ 
 .main{
         background-color: #d66eb5;
         padding: 3px;
         border-radius: 10px;
         padding-left: 30px;
         padding-right: 20px;
-}
+        }
 
 .sidebar li {
         line-height: 1.3em; 
@@ -142,4 +140,4 @@ header{
 	padding-top: 5px; 
 	margin-bottom: 5px;
 	list-style-type: none;
-}
+        }
