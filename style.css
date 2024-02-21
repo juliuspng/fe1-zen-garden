@@ -73,15 +73,19 @@ abbr {
 
 .summary {
             clear: both; 
+            border-radius: 10px;
             margin: 20px 20px 20px 10px; 
             width: 210px; 
+            padding: 20px;
             float: left;
             background-color: #fcf8d2;
         }
 
         
 header{
+            display: block;
             background: url(cssimg.jpg) no-repeat right top;
+            border-radius: 10px;
             opacity: 0.7;
             padding: 120px;
             height: 100px;
@@ -94,9 +98,11 @@ header{
  }
 
  .sidebar {
-        margin-top: 55em;
-        padding-top: 20em;
+        margin-top: 15em;
+        padding-top: 1em;
+        padding: 20px;
         background: #fa7000da;
+        border-radius: 10px;
         overflow: hidden;
       }
 
@@ -105,6 +111,8 @@ header{
         z-index: 2;
         color: #ffffff;
         background: rgba(38, 191, 246, 0.8);
+        background-image: url(cs);
+        border-radius: 10px;
         width: 19%;
         top: -9em;
         right: 0;
@@ -114,4 +122,12 @@ header{
         -moz-box-sizing: border-box;
         box-sizing: border-box;
       }
+
+.main{
+        background-color: #d66eb5;
+        padding: 3px;
+        border-radius: 10px;
+        padding-left: 30px;
+        padding-right: 20px;
+}
 
