@@ -6,7 +6,7 @@ html, body {
 
 body {
         background-color: #da79bb;
-        font: verdana, sans-serif;
+        font-family: verdana, sans-serif;
         line-height: 1.88889;
         }       
 
@@ -91,7 +91,7 @@ header {
         width: 100%;
         }
 
- .sidebar {
+.sidebar {
         
         margin-top: 15em;
         padding-top: 1em;
@@ -112,8 +112,6 @@ header {
         right: 0;
         margin-right: 0;
         padding: 10em 1em 20em 1em;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
         box-sizing: border-box;
         
         background-image: url('csscasazul.jpg');        
